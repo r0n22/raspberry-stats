@@ -1,0 +1,146 @@
+/*
+ * !!DISCLAIMER!!
+ * 
+ * Hey there! Thanks for reading/using/editing this code, I just wanted to say a couple of things :
+ * 
+ * First of all this code isn't at it's best because I did a rather bad job at using some of the API's possibilities.
+ * Second of all, I'm a fifteen year developer at the making of this code so I'm not so experienced in a general sense.
+ * 
+ * If you make any improvements to the code, email me your forked github repository of this code and I'll take a look at it just to learn :)
+ * 
+ * You can also email me at : 96aa48 [at] gmail.com
+ * 
+ * Thanks !
+ * 
+ */
+
+/* Generic Styles */
+
+body {
+	background-color: #E7E8D1;
+	margin:0;
+	padding:0;
+	color:#FFF;
+	font-family:sans-serif;
+	margin-top:85px;
+}
+
+a {
+    color: #8E001C;
+    text-decoration: none;
+}
+
+a:hover {
+     text-decoration: underline;   
+}
+
+input[type="text"] {
+    background-color:#DDD;
+    border:solid 1px #BBB;
+    padding:5px;
+    border-radius:3px;
+    margin-left:5px;
+    color:#333;
+}
+
+textarea {
+    background-color:#DDD;
+    border:solid 1px #BBB;
+    border-radius:3px;
+    color:#333;
+}
+
+
+pre {
+    background-color:#DDD;
+    color:green;
+    border-radius:4px;
+    border:solid 1px #BBB;
+}
+
+/* Header Styles */
+
+header {
+	background-color: #424242;
+	border-bottom: solid 5px #8E001C;
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+}
+
+header h1 {
+	margin-left: 20px;
+	margin-top: 30px;
+	line-height: 0px;
+	padding-bottom: 5px;
+    float:left;
+}
+
+header div:first-child {
+	background-image: url('/pi.png');
+	height: 48px;
+	width: 38px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 4px;
+	background-repeat: no-repeat;
+}
+
+header div#nav {
+    float:right; 
+}
+
+header div#nav li {
+    float: left;
+    padding:19px;
+    padding-left:24px;
+    padding-right:25px;
+    border-left:solid 1px #8E001C;
+}
+
+header div#nav li:hover {
+    background-color:#8E001C;
+}
+
+header div#nav a {
+    color:#FFF;
+}
+
+/* Section Styles */
+
+section {
+    background-color: #FBF7E4;
+    color: #000;
+    margin: 15px;
+    padding: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 3px;
+    border: solid 1px #D3CEAA;
+    box-shadow: 0px 0px 7px #D3CEAA;
+}
+
+/* Table styles for stats */
+
+td {
+    padding-left:20px;
+    padding-right:20px;
+    background-color:#DDD;
+}
+tr {
+    
+}
+tbody {
+       
+}
+table {
+    background-color:#CCC;
+    color:#000;
+    border:solid 1px #BBB;
+    border-radius:2px;
+    min-height:200px;
+    min-width:200px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
